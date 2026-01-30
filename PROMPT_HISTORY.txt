@@ -1,0 +1,4 @@
+At the top, write 1-2 sentences describing:
+Your high-level strategy (e.g., "I focused on core movement and car obstacles, skipped trains and rivers to save time. I used ChatGPT and pygame.")
+Which AI tools you used
+Below that, paste the prompts that shaped your game's development
