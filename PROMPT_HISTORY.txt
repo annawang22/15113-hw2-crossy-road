@@ -1,0 +1,53 @@
+At the high-level, I used ChatGPT Pro (Jan. 2026 version) to start the creation of Crossy Road with a simple generic prompt. Once I encountered recurring problems that weren't getting fixed in ChatGPT, I moved to Claude AI (Sonnet 4.5) to flesh out the animations and smaller action fixes.
+
+Link to entire conversation with ChatGPT Pro: https://chatgpt.com/share/697d56a7-cdd4-8006-8280-e9683073cb8e
+
+Link to entire conversation with Claude AI: https://claude.ai/share/008c94f0-c507-4675-bfbe-91bb33f63871
+
+Prompts with ChatGPT Pro:
+replicate the classic crossy road game to the best of your ability using python. give me a code file.
+
+is pygame snips enough? i can't find pygame 2.x on vscode?
+
+why is this happening: /usr/local/bin/python3 -i /Users/hfang2/Documents/15113-hw2-crossy-road/crossy_road_clone.py
+hfang2@C02FG2W5MD6N 15113-hw2-crossy-road % /u
+sr/local/bin/python3 -i /Users/hfang2/Document
+s/15113-hw2-crossy-road/crossy_road_clone.py
+Traceback (most recent call last):
+  File "/Users/hfang2/Documents/15113-hw2-crossy-road/crossy_road_clone.py", line 24, in <module>
+    import pygame
+ModuleNotFoundError: No module named 'pygame'
+>>> 
+KeyboardInterrupt
+>>> /usr/local/bin/python3 -i /Users/hfang2/Documents/15113-hw2-crossy-road/crossy_road_clone.py
+  File "<stdin>", line 1
+    /usr/local/bin/python3 -i /Users/hfang2/Documents/15113-hw2-crossy-road/crossy_road_clone.py
+    ^
+SyntaxError: invalid syntax
+>>> 
+KeyboardInterrupt
+>>> /usr/local/bin/python3 -i /Users/hfang2/Documents/15113-hw2-crossy-road/crossy_road_clone.py
+  File "<stdin>", line 1
+    /usr/local/bin/python3 -i /Users/hfang2/Documents/15113-hw2-crossy-road/crossy_road_clone.py
+    ^
+SyntaxError: invalid syntax
+
+im still getting the invalid syntax error. can you give me a steps to fix this?
+
+am i suppose to be running the terminal on my computer or in vscode?
+
+This is the current code, can you fix the orientation so that the direction of the game is going upwards and that the key to move forward in the game is the up arrow?
+
+this is the current code. can you make sure that when the player hops onto the log, it's still and doesn't die if you just stay there unless you go off the screen? 
+
+i shouldn't move when im on the log. to be more specific, i shouldn't be moving while the log is moving in the water. i should be moving with the log. my place should be stagnant. 
+
+no. this is incorrect. i want when the player is on the log, it basically becomes part of the log if the player doesn't move. do you understand what i'm saying?
+
+Prompts to Claude AI:
+This is my current code file for crossy road. can you make edits and updates so it looks closer to the classic game of crossy road?
+
+how do i fix the error: UnboundLocalError: cannot access local variable 'pygame' where it is not associated with a value
+>>>
+
+can you make sure that the player cannot go over the tree. to be more specific, the tree should block the player from moving.
