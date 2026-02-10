@@ -51,7 +51,3 @@ how do i fix the error: UnboundLocalError: cannot access local variable 'pygame'
 >>>
 
 can you make sure that the player cannot go over the tree. to be more specific, the tree should block the player from moving.
-At the top, write 1-2 sentences describing:
-Your high-level strategy (e.g., "I focused on core movement and car obstacles, skipped trains and rivers to save time. I used ChatGPT and pygame.")
-Which AI tools you used
-Below that, paste the prompts that shaped your game's development
